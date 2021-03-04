@@ -7,14 +7,12 @@
 const output = sum(3,7);
  console.log(output)*/
 
-
 /*let bonus = 20;
 function sum(first,second) {
     let result = first + second + bonus;
     console.log(result);
     return result;
 }
-
 const output = sum(3,7);
 console.log(output);
 console.log(bonus);*/
@@ -23,13 +21,12 @@ console.log(bonus);*/
 function sum(first,second) {
     let result = first + second + bonus;
     // console.log(result);
-    if (result>9) {
+    if (result>40) {
         const mood = 'happy';
         console.log(mood);
     }
     return result;
 }
-
 const output = sum(3,7);*/
 // console.log(output);
 // console.log(bonus);
@@ -48,7 +45,6 @@ function sum(first,second) {
     console.log(mood);
     return result;
 }
-
 const output = sum(3,7);*/
 
 
@@ -65,7 +61,6 @@ function sum(first,second) {
     console.log(mood);
     return result;
 }
-
 const output = sum(3,7);*/
 
 
@@ -84,7 +79,6 @@ function sum(first,second) {
     var day = 'friday';
     return result;
 }
-
 const output = sum(3,7);*/
 
 /*let bonus = 20;
@@ -102,10 +96,9 @@ function sum(first,second) {
     console.log(day);
     return result;
 }
-
 const output = sum(3,7);*/
 
-let bonus = 20;
+/*let bonus = 20;
 function sum(first,second) {
     let result = first + second + bonus;
     // console.log(result);
@@ -122,4 +115,4 @@ function sum(first,second) {
     return result;
 }
 
-const output = sum(3,7);
+const output = sum(3,7);*/
