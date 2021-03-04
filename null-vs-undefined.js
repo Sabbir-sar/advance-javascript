@@ -6,6 +6,9 @@
 const adding = add(23,45);
 console.log(adding);*/
 
+const eat = {food:"beef",price: 'i have no money', water:'water'};
+console.log(eat.water);
+
 /*function add(num1, num2){
     console.log(num1, num2);
   
@@ -19,5 +22,5 @@ console.log(eat.water);*/
 /*let fun = undefined;
 console.log(fun);*/
 
-let ages = [2,4,7];
-console.log(ages[7]);
+/*let ages = [2,4,7];
+console.log(ages[7]);*/
