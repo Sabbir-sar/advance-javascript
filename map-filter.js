@@ -1,4 +1,4 @@
-/*const numbers = [3,5,6,7,8,];
+/*const numbers = [3,5,6,7,8];
 const output =[];
 for (let i = 0; i < numbers.length; i++) {
     const element = numbers[i];
@@ -21,12 +21,9 @@ numbers.map(function(element, index,array){
 function square(element){
     return element * element;
 }
-
-
 const result = numbers.map(function (element) {
     return element * element;
-})
-    
+})   
 console.log(result);*/
 
 /*const numbers = [3,5,6,7,8,];
@@ -57,7 +54,7 @@ console.log(bigger);*/
 const isThere = numbers.find(x => x > 5);
 console.log(isThere);*/
 
-const students = [
+/*const students = [
     {id:34, name:'omor suny'},
     {id:67 , name:'mannaa'},
     {id:46, name:'moyori'},
@@ -68,6 +65,42 @@ const ids = students.map(s=>s.id);
 
 const Snames = students.filter(s=>s.name);
 const Sids = students.find(s=>s.id);
-console.log(Sids);
+console.log(Sids);*/
+
+/*const students = [
+    {id:8,name:'jk'},
+    {id:9,name:'kj'},
+    {id:4,name:'ju'},
+    {id:9,name:'li'}
+]
+const names = students.map(s=>s.name);
+const ids = students.map(s=>s.id);
+const Snames = students.filter(s=>s.name);
+const Sids = students.find(s=>s.id);
+console.log(names);*/
+
+/*const numbers = [4,3,5,6,7];
+const square = element => element*element;
+const result = numbers.map(square);
+console.log(result);*/
+
+/*const numbers = [4,3,5,6,7];
+const bigger = numbers.filter(x => x*2 );
+console.log(bigger);*/
+
+const students = [
+    {id:8,name:'jk'},
+    {id:9,name:'kj'},
+    {id:4,name:'ju'},
+    {id:9,name:'li'}
+]
+const names = [];
+for (let i = 0; i < students.length; i++) {
+    const element = students[i];
+    const result = element.name;
+    names.push(result);
+    console.log(names); 
+}
+// const Snames = students.filter(s=>s.name);
 
 
